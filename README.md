@@ -8,6 +8,7 @@ Edit Sudo's Crontab to run the script at startup.
 
 Example - 
 `sudo crontab -e`
+
 `@reboot python3 /home/pi/raspifancontrol.py`
 
 This script is set to turn on the fan at 55 deg C and turn it off at 50 deg C.
