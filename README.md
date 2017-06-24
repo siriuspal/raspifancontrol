@@ -7,6 +7,7 @@ All dependencies should be installed by default. If not install using pip3.
 Edit Sudo's Crontab to run the script at startup.
 
 Example - 
+
 `sudo crontab -e`
 
 `@reboot python3 /home/pi/raspifancontrol.py`
